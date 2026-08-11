@@ -1,0 +1,75 @@
+/* Estilos externos do cartão de apresentação pessoal */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f1e3; /* Cor de fundo da página */
+    color: #333;
+}
+
+.card {
+    max-width: 760px;
+    margin: 2rem auto;
+    background-color: #ffffff; /* Cor diferente para o cartão */
+    border: 2px solid #e2b659; /* Bordas */
+    border-radius: 18px; /* border-radius */
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    text-align: center; /* Textos centralizados */
+}
+
+.nome {
+    color: #b83280; /* Cor diferente para o nome */
+    font-family: 'Georgia', serif; /* Fonte diferente para o nome */
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card h2 {
+    font-family: 'Verdana', sans-serif; /* Fonte diferente para subtítulos */
+    color: #2d4059; /* Cor diferente para títulos */
+    margin-top: 1.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.card p {
+    font-size: 1rem; /* Seletor descendente obrigatório */
+    color: #4a4a4a;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+.foto {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 16px;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.apresentacao p,
+#contato p {
+    text-align: left;
+    max-width: 640px;
+    margin: 0.25rem auto;
+}
+
+.habilidades ul,
+.interesses ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.habilidades li,
+.interesses li {
+    font-size: 1rem;
+    margin: 0.4rem 0;
+}
+
+footer p {
+    font-family: 'Tahoma', sans-serif;
+    color: #7a7a7a;
+    margin-top: 2rem;
+}
